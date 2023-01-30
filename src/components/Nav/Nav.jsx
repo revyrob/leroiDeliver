@@ -24,8 +24,8 @@ function Nav() {
   };
 
   return (
-    <AppBar position="static" className="bg-gray-900 max-w-screen-xl mx-auto">
-      <Container maxWidth="2xl" className="bg-gray-900">
+    <AppBar position="static" className="bg-red-900 max-w-screen-xl mx-auto">
+      <Container maxWidth="2xl" className="bg-red-900">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -59,7 +59,7 @@ function Nav() {
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
-              className="hover:text-red-700"
+              className="hover:text-red-900"
             >
               <MenuIcon />
             </IconButton>
@@ -83,7 +83,7 @@ function Nav() {
             >
               <MenuItem onClick={handleCloseNavMenu}>
                 <a href="#services">
-                  <Typography className="text-black" sx={{ minWidth: 100 }}>
+                  <Typography className="text-slate-100" sx={{ minWidth: 100 }}>
                     Services
                   </Typography>
                 </a>
@@ -91,7 +91,7 @@ function Nav() {
              
               <MenuItem onClick={handleCloseNavMenu}>
                 <a href="#about">
-                  <Typography className="text-black" sx={{ minWidth: 100 }}>
+                  <Typography className="text-slate-100" sx={{ minWidth: 100 }}>
                     About
                   </Typography>
                 </a>
