@@ -59,7 +59,7 @@ function Nav() {
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
-              className="hover:text-red-900"
+              className="hover:text-black"
             >
               <MenuIcon />
             </IconButton>
@@ -83,7 +83,7 @@ function Nav() {
             >
               <MenuItem onClick={handleCloseNavMenu}>
                 <a href="#services">
-                  <Typography className="text-slate-100" sx={{ minWidth: 100 }}>
+                  <Typography className="text-black" sx={{ minWidth: 100 }}>
                     Services
                   </Typography>
                 </a>
@@ -91,7 +91,7 @@ function Nav() {
              
               <MenuItem onClick={handleCloseNavMenu}>
                 <a href="#about">
-                  <Typography className="text-slate-100" sx={{ minWidth: 100 }}>
+                  <Typography className="text-black" sx={{ minWidth: 100 }}>
                     About
                   </Typography>
                 </a>
