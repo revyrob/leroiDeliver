@@ -126,8 +126,8 @@ function ContactForm() {
               value={formValues.message}
               required
               fullWidth
-              id="question"
-              label="Question"
+              id="message"
+              label="Message"
               onChange={handleChange}
             />
 
