@@ -9,7 +9,7 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
-import logo from '../../assets/logo/whiteLogo.png';
+import logo from '../../assets/logo/logo_transparent.png';
 
 
 function Nav() {
@@ -24,8 +24,8 @@ function Nav() {
   };
 
   return (
-    <AppBar position="static" className="bg-red-900 max-w-screen-xl mx-auto">
-      <Container maxWidth="2xl" className="bg-red-900">
+    <AppBar position="static" className="bg-yellow-500 max-w-screen-xl mx-auto">
+      <Container maxWidth="2xl" className="bg-yellow-500">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -147,7 +147,7 @@ function Nav() {
             <Box sx={{ flexGrow: 0 }}>
               <button
                 type="button"
-                className=" border-solid border-white border-2 text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-2 py-1.5 text-center mx-4 md: dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+                className=" border-solid border-white border-2 text-white bg-[#F3403D] hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-lg px-2 py-1.5 text-center mx-4 md: dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
               >
                 Contact
               </button>

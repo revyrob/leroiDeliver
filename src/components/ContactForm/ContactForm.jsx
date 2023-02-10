@@ -136,7 +136,7 @@ function ContactForm() {
               value="send"
               fullWidth
               variant="contained"
-              style={{ backgroundColor: "#fcaf34", color: "white" }}
+              style={{ backgroundColor: "#fbbf24", color: "white" }}
               sx={{ mt: 3, mb: 2 }}
             >
               Submit

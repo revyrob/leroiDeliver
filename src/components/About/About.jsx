@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Serv() {
+function About() {
   return (
     <section id="servcies" className='max-w-screen-xl mx-auto md:w-1/2'>
         <h1 className='text-2xl font-black mt-8 mb-4 '>Services</h1>
@@ -11,4 +11,4 @@ function Serv() {
   )
 }
 
-export default Serv
+export default About
