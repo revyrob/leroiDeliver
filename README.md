@@ -4,8 +4,6 @@ LeRoi Delivery is built for a personnal delivery service I am starting to run in
 ## 🚀 Demo
 https://leroi-delivery.netlify.app/
 
-## 📷 Images
-![bFV2](https://user-images.githubusercontent.com/66695865/218232487-76b6dade-f51a-401f-a66f-22172fb7925c.png)
 
 ## 💻 Built with
 <li>React</li>
